@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 
-BASE_URL = "http://localhost:5000/"
+BASE_URL = "https://aps-3-flask-rest-mongo-haseduu.onrender.com"
 def fazer_requisicao(endpoint, method="GET", params=None, data=None):
     # Constrói a URL completa concatenando o endpoint específico com a base URL
     url = f"{BASE_URL}/{endpoint}"
